@@ -25,4 +25,6 @@
     <string name="action_rename">Rename</string>
     <string name="action_duplicate">Duplicate</string>
     <string name="action_archive">Archivate</string>
+    <string name="le_my_account">My Account</string>
+    <string name="le_disconnect">Disconnect</string>
 </resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/grp_account">
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="@string/le_my_account" />
+        <item
+            android:id="@+id/nav_disconnect"
+            android:icon="@drawable/ic_cloud_off_black_24dp"
+            android:title="@string/le_disconnect" />
+    </group>
+
+</menu>
