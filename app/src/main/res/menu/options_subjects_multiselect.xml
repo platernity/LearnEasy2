@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/ic_menu_share"
+        android:orderInCategory="100"
+        android:title="@string/action_search"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_informations"
+        android:icon="@drawable/ic_insert_comment_white_24dp"
+        android:orderInCategory="100"
+        android:title="@string/action_informations"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_style"
+        android:icon="@drawable/ic_color_lens_white_24dp"
+        android:orderInCategory="100"
+        android:title="@string/action_style"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_rename"
+        android:icon="@drawable/ic_title_white_24dp"
+        android:orderInCategory="100"
+        android:title="@string/action_rename"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_duplicate"
+        android:icon="@drawable/ic_title_white_24dp"
+        android:orderInCategory="100"
+        android:title="@string/action_duplicate"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_archive"
+        android:icon="@drawable/ic_archive_white_24dp"
+        android:orderInCategory="100"
+        android:title="@string/action_archive"
+        app:showAsAction="ifRoom" />
+
+</menu>

@@ -1,36 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <group android:checkableBehavior="single">
+    <group android:checkableBehavior="single"
+        android:id="@+id/grp_navigation">
         <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
-        <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
-        <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
-        <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
-    </group>
+            android:id="@+id/nav_library"
+            android:icon="@drawable/ic_local_library_black_24dp"
 
-    <item android:title="Communicate">
-        <menu>
-            <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
-            <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
-        </menu>
-    </item>
+            android:title="@string/le_my_library" />
+        <item
+            android:id="@+id/nav_archive"
+            android:icon="@drawable/ic_archive_black_24dp"
+            android:title="@string/le_archive" />
+        <item
+            android:id="@+id/nav_marketplace"
+            android:icon="@drawable/ic_shopping_cart_black_24dp"
+            android:title="@string/le_marketplace" />
+    </group>
+    <!--
+    <group android:checkableBehavior="single"
+        android:id="@+id/grp_learning">
+        <item android:title="@string/le_learning_mode">
+            <menu>
+                <item
+                    android:id="@+id/nav_simulation"
+                    android:title="@string/le_simulation" />
+                <item
+                    android:id="@+id/nav_classic"
+                    android:title="@string/le_classic" />
+                <item
+                    android:id="@+id/nav_duel"
+                    android:title="@string/le_duel" />
+            </menu>
+        </item>
+    </group>
+    -->
+    <group android:checkableBehavior="single"
+        android:id="@+id/grp_utility">
+
+        <item
+            android:id="@+id/nav_notifications"
+            android:icon="@drawable/ic_local_library_black_24dp"
+
+            android:title="@string/le_notifications" />
+        <item
+            android:id="@+id/nav_statistics"
+            android:icon="@drawable/ic_archive_black_24dp"
+            android:title="@string/le_statistics" />
+        <item
+            android:id="@+id/nav_sync"
+            android:icon="@drawable/ic_autorenew_black_24dp"
+            android:title="@string/le_synchronize" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="@string/action_settings" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_help_black_24dp"
+            android:title="@string/le_help" />
+
+    </group>
 
 </menu>

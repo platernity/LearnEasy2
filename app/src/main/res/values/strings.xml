@@ -1,9 +1,28 @@
 <resources>
     <string name="app_name">Learn Easy</string>
-    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_main">Learn Easy</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+
+    //menu
+    <string name="le_my_library">My Library</string>
+    <string name="le_archive">Archive</string>
+    <string name="le_marketplace">Marketplace</string>
+    <string name="le_learning_mode">Learning Mode</string>
+    <string name="le_simulation">Simulation</string>
+    <string name="le_classic">Classic</string>
+    <string name="le_duel">Duel</string>
+    <string name="le_notifications">Notifications</string>
+    <string name="le_statistics">Statistics</string>
+    <string name="le_synchronize">Synchronize</string>
+    <string name="le_help">Help</string>
+    <string name="action_search">Search</string>
+    <string name="action_informations">Edit Informations</string>
+    <string name="action_style">Change Style</string>
+    <string name="action_rename">Rename</string>
+    <string name="action_duplicate">Duplicate</string>
+    <string name="action_archive">Archivate</string>
 </resources>
