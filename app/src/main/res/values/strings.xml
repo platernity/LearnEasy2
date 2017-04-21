@@ -6,4 +6,17 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+
+    //menu
+    <string name="le_my_library">My Library</string>
+    <string name="le_archive">Archive</string>
+    <string name="le_marketplace">Marketplace</string>
+    <string name="le_learning_mode">Learning Mode</string>
+    <string name="le_simulation">Simulation</string>
+    <string name="le_classic">Classic</string>
+    <string name="le_duel">Duel</string>
+    <string name="le_notifications">Notifications</string>
+    <string name="le_statistics">Statistics</string>
+    <string name="le_synchronize">Synchronize</string>
+    <string name="le_help">Help</string>
 </resources>
